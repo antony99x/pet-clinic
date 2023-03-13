@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>guru.springframework</groupId>
 	<artifactId>pet-clinic</artifactId>
-	<version>0.0.4-SNAPSHOT</version>
+	<version>0.0.4</version>
 	<packaging>pom</packaging>
 	<name>pet-clinic</name>
 	<description>Pet Clinic Project</description>
@@ -50,7 +50,18 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/antony99x/pet-clinic</developerConnection>
-	  <tag>pet-clinic-0.0.3</tag>
-  </scm>
+		<tag>pet-clinic-0.0.4</tag>
+  	</scm>
+
+	<distributionManagement>
+		<repository>
+			<id>releases</id>
+			<url>file:///C:/Users/Antony%20Campana/Downloads</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<url>file:///C:/Users/Antony%20Campana/Downloads</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 </project>
