@@ -8,12 +8,11 @@
     </parent>
 
     <artifactId>pet-clinic-data</artifactId>
-  <version>0.0.6-SNAPSHOT</version>
+    <version>0.0.6-SNAPSHOT</version>
 
     <properties>
         <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
     </properties>
-
 
     <dependencies>
         <dependency>
